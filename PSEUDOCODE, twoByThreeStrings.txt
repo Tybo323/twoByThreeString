@@ -1,0 +1,21 @@
+Pseudocode-
+
+
+BEGIN
+
+    // Loop to repeat the process three times
+    FOR i FROM 1 TO 3 DO
+        PROMPT "Enter string 1 (Attempt " + i + "): "
+        READ str1
+
+        PROMPT "Enter string 2 (Attempt " + i + "): "
+        READ str2
+
+        // Concatenate the two strings with a space in between
+        SET concatenated TO str1 + " " + str2
+
+        // Print the concatenated string
+        PRINT "Concatenated String: " + concatenated
+    END FOR
+
+END
